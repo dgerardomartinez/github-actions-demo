@@ -40,11 +40,14 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-       #- name: executing remote ssh commands using password
-        #uses: appleboy/ssh-action@master
-        #with:
-          #host: 137.184.24.44
-          #username: root
-          #password: ${{ secrets.PASSWORD }}
-          #port: 22
-          #script: COPY wordpress /var/www/wordpress
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: 167.172.144.113
+          username: root
+          password: ${{ secrets.OMG_SECRET }}
+          port: 22
+          script:
+            cd github-actions-final
+            git pull origin master
+            git status
