@@ -30,7 +30,7 @@ jobs:
  
           
           # will put all file under this path
-          local_path: ~/Wordpress/index.php
+          local_path: /wordpress/index.php
           # files will copy to under remote_path
           remote_path: /var/www/wordpress
           
