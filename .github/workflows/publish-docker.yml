@@ -30,7 +30,7 @@ jobs:
  
           
           # will put all file under this path
-          local_path: /home/dmartinez/Documentos/Examen-Final/github - pipeline/wordpress/index.php
+          local_path: ./*
           # files will copy to under remote_path
           remote_path: /var/www/wordpress
           
