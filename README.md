@@ -1,6 +1,6 @@
 ## Pipelines de automatización - GitHub Actions
-    
-    Esta autommatización la realizaremos con ayuda de GitHub Actions, por medio de un SFTP, lo que hará realmente es sincronizar el index.php de la página principal de nuestro web server en este caso tiene instalada la aplicación de WordPress.
+
+Esta autommatización la realizaremos con ayuda de GitHub Actions, por medio de un SFTP, lo que hará realmente es sincronizar el index.php de la página principal de nuestro web server en este caso tiene instalada la aplicación de WordPress.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
