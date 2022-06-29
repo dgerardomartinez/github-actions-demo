@@ -5,7 +5,7 @@
  <body>
  <div align= "center">
 <strong>
-<font face="Arial" size="20"> <?php echo '<p>EXAMEN FINAL 2022 TEST</p>'; ?>
+<font face="Arial" size="20"> <?php echo '<p>EXAMEN FINAL 2022 ENTREGA FINAL2</p>'; ?>
 </font> 
 <font face="Arial" size="20">  <?php echo '<p>UNIVERSIDAD GALILEO</p>'; ?>
 </font>
